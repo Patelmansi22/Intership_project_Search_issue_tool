@@ -1,0 +1,127 @@
+.Box-header {
+    background-color: #f6f8fa;
+    border-color: var(--color-border-default);
+    border-style: solid;
+    border-top-left-radius: var(--primer-borderRadius-medium, 6px);
+    border-top-right-radius: var(--primer-borderRadius-medium, 6px);
+    border-width: var(--primer-borderWidth-thin, 1px);
+        margin: calc(var(--primer-borderWidth-thin, 1px)*-1) calc(var(--primer-borderWidth-thin, 1px)*-1) 0;
+        padding: var(--primer-stack-padding-normal, 16px);
+        margin-left: 300px;
+        margin-top: 48px;
+    height: 58px;
+    width: 60%;
+}
+.Box-header1 {
+    background-color: var(--color-canvas-subtle);
+    border-color: var(--color-border-default);
+    border-style: solid;
+    border-top-left-radius: var(--primer-borderRadius-medium, 6px);
+    border-top-right-radius: var(--primer-borderRadius-medium, 6px);
+    border-width: var(--primer-borderWidth-thin, 1px);
+        margin: calc(var(--primer-borderWidth-thin, 1px)*-1) calc(var(--primer-borderWidth-thin, 1px)*-1) 0;
+        padding: var(--primer-stack-padding-normal, 16px);
+        margin-left: 300px;
+        /* margin-top: 48px; */
+    
+    width: 60%;
+}
+.Box-header1:hover{
+    background-color: #f6f8fa;
+}
+
+
+.main1 {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    height: 150px;
+    position: relative;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    cursor: pointer;
+    font-size: 150%;
+    margin-top: 8px;
+
+}
+
+.search{
+    width: 36%;
+    height: 39px;
+    border-radius: 7px;
+    margin-left: 372px;
+}
+.add{
+    float: right;
+    font-size: 25px;
+   margin-top: 25px;
+   margin-right: 492px;
+   border-radius: 12px;
+
+}
+
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 12px;
+  }
+  .issue{
+    margin-left: 48px;
+    background-color: green;
+    color: white;
+    font-size: 22px;
+    margin-top: 20px;
+    border-radius: 8px;
+  }
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    float: right;
+    font-size: 25px;
+   margin-top:-57px;
+   margin-right: 362px;
+
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    cursor: pointer;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
+  .table{
+    width: 25%;
+    margin-top: 100px;
+}
+
+.edititem{
+    margin-left: 817px;
+    margin-top: 20px;
+}
